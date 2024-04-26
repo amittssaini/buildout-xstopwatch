@@ -38,7 +38,7 @@ const StopWatch = () => {
             <p>Time: {displayTime(time)}</p>
             <div>
                 <button onClick={startStop}>{isRunning?'Stop':'Start'}</button>
-                <button onClick={restart}>Restart</button>
+                <button onClick={restart}>Reset</button>
             </div>
         </div>
     </div>
